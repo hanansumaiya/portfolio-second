@@ -10,10 +10,14 @@ h1 {
     color: white;
 }
 
-h3 {
+h2 {
     font-size: 30px;
     margin: 0px;
     color: white;
+}
+
+h4 {
+    margin: 0px;
 }
 
 .gold {
@@ -23,6 +27,7 @@ h3 {
 p {
     font-size: 16px;
     font-weight: 400;
+    margin: 0px;
     color: rgb(221, 217, 217);
 }
 
@@ -31,15 +36,15 @@ a {
     color: white;
     text-decoration: none;
     padding: 10px 40px;
-    border-radius: 5%;
+    border-radius: 5px;
     font-size: 18px;
     display: inline-block;
 }
 
+/* ////////////////////////////////////// */
 .top-banner {
     display: flex;
     padding: 5% 0% 5%;
-    border: 2px solid white;
 }
 
 .top-banner .top-banner-left {
@@ -66,7 +71,6 @@ a {
 .about-me {
     display: flex;
     padding: 5% 0% 5%;
-    border: 2px solid red;
 }
 
 .about-me .about-me-left {
@@ -89,3 +93,44 @@ a {
 }
 
 /* ////////////////////////////////////// */
+.my-services {
+    padding: 5% 0% 7%;
+    border: 1px solid oldlace;
+    text-align: center;
+}
+
+.my-services #para {
+    padding: 0% 25%;
+}
+
+.my-services .service-area-first {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.my-services .service-area-first .service-item-first {
+    width: 29%;
+    border-bottom: 3px solid #F9B82A;
+    border-top: 3px solid transparent;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-radius: 5px;
+    padding: 4% 0%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.my-services .service-area-first .service-item-first:hover {
+    border: 3px solid #F9B82A;
+}
+
+.my-services .service-area-first .service-item-first p {
+    margin: 20px 30px;
+}
+
+.my-services .service-area-first .service-item-first a {
+    padding: 5px 15px;
+    font-size: 14px;
+}
