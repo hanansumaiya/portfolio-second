@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 0px;
+    color: white;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0px;
+    color: white;
+}
+
+.gold {
+    color: #F9B82A;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(221, 217, 217);
+}
+
+a {
+    background-color: #F9B82A;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5%;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.top-banner {
+    display: flex;
+    padding: 5% 0% 5%;
+    border: 2px solid white;
+}
+
+.top-banner .top-banner-left {
+    width: 55%;
+    padding: 3% 5% 5% 10%;
+}
+
+.top-banner .top-banner-left p {
+    margin: 2% 0% 5%;
+}
+
+.top-banner .top-banner-right {
+    width: 45%;
+}
+
+.top-banner .top-banner-right img {
+    width: 55%;
+    margin: 30px auto;
+    display: block;
+
+}
+
+/* ////////////////////////////////////// */
+.about-me {
+    display: flex;
+    padding: 5% 0% 5%;
+    border: 2px solid red;
+}
+
+.about-me .about-me-left {
+    width: 45%;
+}
+
+.about-me .about-me-left img {
+    width: 60%;
+    margin: 20px auto;
+    display: block;
+}
+
+.about-me .about-me-right {
+    width: 55%;
+    padding: 3% 5% 0% 5%;
+}
+
+.about-me .about-me-right p {
+    margin: 4% 0% 8%;
+}
+
+/* ////////////////////////////////////// */
